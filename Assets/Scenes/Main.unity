@@ -980,11 +980,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5083012945484489827, guid: f9ae4cfbd8ef04f42909ef797c5fcc6a, type: 3}
       propertyPath: m_Color.b
-      value: 0.94060564
+      value: 0.52245283
       objectReference: {fileID: 0}
     - target: {fileID: 5083012945484489827, guid: f9ae4cfbd8ef04f42909ef797c5fcc6a, type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 0.3160377
       objectReference: {fileID: 0}
     - target: {fileID: 5083012945484489827, guid: f9ae4cfbd8ef04f42909ef797c5fcc6a, type: 3}
       propertyPath: m_Color.r
@@ -1341,7 +1341,9 @@ MonoBehaviour:
   ballPosForPlayer1: {fileID: 866137123}
   ballPosForPlayer2: {fileID: 421304991}
   timeBeforerStartGame: 1
-  scoreText: {fileID: 857353543}
+  scoreText: {fileID: 0}
+  delayBeforeTimeScales: 4
+  timeScaleFactor: 0.1
 --- !u!4 &1315245179
 Transform:
   m_ObjectHideFlags: 0
@@ -2059,11 +2061,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5083012945484489827, guid: f9ae4cfbd8ef04f42909ef797c5fcc6a, type: 3}
       propertyPath: m_Color.g
-      value: 0.39455318
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5083012945484489827, guid: f9ae4cfbd8ef04f42909ef797c5fcc6a, type: 3}
       propertyPath: m_Color.r
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

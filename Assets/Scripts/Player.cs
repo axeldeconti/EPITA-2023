@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public Animator anim;
     public EPlayer player;
     public Rigidbody2D rb;
     public float speed;
